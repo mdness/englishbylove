@@ -1,0 +1,19 @@
+@import "./reset";
+@import "./media-queries";
+
+body {
+    background-color: #dedee0;
+
+    header {
+        nav.navbar {
+            background-color: #dedee0;
+
+            @include mobile {
+                img {
+                    width: 200px;
+                    height: 100px;
+                }
+            }
+        }
+    }
+}

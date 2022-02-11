@@ -1,0 +1,32 @@
+@import "./reset";
+@import "./media-queries";
+
+.main__prof__card {
+
+    .main__prof__card__text {
+        margin-left: 30px;
+    }
+
+    .card {
+        border-radius: 20px;
+        margin: 30px;
+
+        img.grayscale {
+            filter: grayscale(100%);
+            -webkit-filter: grayscale(100%);
+            filter: gray;
+            /* For IE 6 - 9 */
+            transition: all .6s ease;
+            opacity: 0.5;
+        }
+
+        img.grayscale:hover {
+            opacity: 1;
+            filter: grayscale(0%);
+            -webkit-filter: grayscale(0%);
+            filter: none;
+        }
+    }
+
+
+}

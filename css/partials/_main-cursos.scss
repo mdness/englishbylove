@@ -1,0 +1,123 @@
+@import "./reset";
+@import "./media-queries";
+
+
+.main__cursos {
+    background: #dedee0;
+
+    &__sectionone {
+        margin: 50px;
+
+        @include mobile {
+            display: flex;
+            flex-direction: column;
+        }
+
+        img {
+            width: 400px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px #999;
+
+            @include mobile {
+                width: 300px;
+                border-radius: 5px;
+                box-shadow: 2px 2px 5px #999;
+            }
+        }
+
+        &__div__alumnos {
+            display: flex;
+            flex-direction: row;
+            padding: 30px;
+
+            @include mobile {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 30px;
+            }
+
+            .main__cursos__sectionone__div__texto--lefttext {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-left: 20px;
+
+                @include mobile {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 20px;
+                    text-align: center;
+                }
+            }
+        }
+
+
+        .main__cursos__sectionone__div__alumnos--right {
+            display: flex;
+            flex-direction: row-reverse;
+
+            @include mobile {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+
+
+            .main__cursos__sectionone__div__texto--righttext {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-right: 20px;
+                text-align: end;
+
+                @include mobile {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 20px;
+                    text-align: center;
+                }
+            }
+        }
+
+    }
+
+    .main__cursos__sectiontwo {
+        h2 {
+            margin-top: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px;
+            padding: 10px;
+
+        }
+
+        &__div__exams {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 70px;
+            text-align: center;
+
+            img {
+                width: 60px;
+            }
+
+            @include mobile {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 70px;
+                text-align: center;
+            }
+        }
+    }
+}
