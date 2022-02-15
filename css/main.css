@@ -572,6 +572,19 @@ main {
           flex-direction: column;
 }
 
+h1,
+h3 {
+  margin-left: 60px;
+}
+
+@media screen and (max-width: 866px) {
+  h1,
+  h3 {
+    margin-left: 10px;
+    text-align: center;
+  }
+}
+
 .card-aran {
   -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08), 0 3px 6px 0 rgba(0, 0, 0, 0.03);
           box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08), 0 3px 6px 0 rgba(0, 0, 0, 0.03);
@@ -582,9 +595,34 @@ main {
   color: #56575b;
   margin: 20px;
   width: 300px;
-  height: 500px;
+  height: 420px;
   -webkit-box-shadow: 2px 2px 5px #999;
           box-shadow: 2px 2px 5px #999;
+}
+
+.card-aran::after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  -webkit-box-shadow: 0 10px 20px 0 #0000, 0 10px 20px 0 #0000;
+          box-shadow: 0 10px 20px 0 #0000, 0 10px 20px 0 #0000;
+  content: '';
+  opacity: 0;
+  z-index: -1;
+}
+
+.card-aran:hover, .card-aran:focus {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media screen and (max-width: 866px) {
+  .card-aran {
+    margin-left: 80px;
+  }
 }
 
 .card-aran .plan-name {
@@ -821,6 +859,10 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.main__prof__card {
+  overflow: hidden;
 }
 
 .main__prof__card .main__prof__card__text {
