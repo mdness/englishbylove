@@ -572,14 +572,12 @@ main {
           flex-direction: column;
 }
 
-h1,
-h3 {
+.div-aran {
   margin-left: 60px;
 }
 
 @media screen and (max-width: 866px) {
-  h1,
-  h3 {
+  .div-aran {
     margin-left: 10px;
     text-align: center;
   }

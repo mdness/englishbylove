@@ -2,8 +2,7 @@
 @import "./reset";
 @import "./media-queries";
 
-h1,
-h3 {
+.div-aran {
     margin-left: 60px;
 
     @include mobile {
