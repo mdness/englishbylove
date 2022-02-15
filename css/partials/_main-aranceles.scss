@@ -1,29 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
 @import "./reset";
 
-body {
-    background: #eee;
-    padding: 40px 0;
-}
 
-h1 {
-    text-align: center;
-    padding-bottom: 30px;
-    font-family: Montserrat;
-    font-weight: 700;
-    color: #323232;
-}
-
-.card {
+.card-aran {
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08), 0 3px 6px 0 rgba(0, 0, 0, 0.03);
     border-right: 1px #dde0e2 solid;
     border-radius: 4px 4px 0 0;
     position: relative;
     background-color: white;
     color: #56575b;
-    margin: 5px;
-    width: 240px;
-    height: 450px;
+    margin: 20px;
+    width: 300px;
+    height: 500px;
+    box-shadow: 2px 2px 5px #999;
 
     .plan-name {
         padding: 13px 0;
@@ -88,7 +77,7 @@ h1 {
 
     .button,
     .button-primary {
-        background: #2a5bd7;
+        background: #ff8282;
         border-radius: 8px;
         font-size: inherit;
         color: white;
