@@ -6,10 +6,15 @@
     background-color: #dedee0;
 
     &__sectionzero {
-        height: 90vh;
+        height: 70vh;
         display: flex;
         justify-content: center;
         align-items: center;
+        background-image: url(../../multimedia/background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
 
         @include mobile {
             height: 50vh;

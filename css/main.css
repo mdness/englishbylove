@@ -128,7 +128,7 @@ main {
 }
 
 .main__index__sectionzero {
-  height: 90vh;
+  height: 70vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -138,6 +138,11 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-image: url(../../multimedia/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 @media screen and (max-width: 866px) {
@@ -571,20 +576,11 @@ main {
           flex-direction: column;
 }
 
-.div-aran {
-  margin-left: 60px;
-}
-
 @media screen and (max-width: 866px) {
   .div-aran {
-    margin-left: 10px;
+    margin: 5px;
     text-align: center;
   }
-}
-
-.divcard {
-  margin-left: 46px;
-  margin-right: 46px;
 }
 
 .card-aran {
