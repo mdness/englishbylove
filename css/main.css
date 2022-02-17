@@ -576,9 +576,13 @@ main {
           flex-direction: column;
 }
 
+.div-aran {
+  margin-left: 70px;
+}
+
 @media screen and (max-width: 866px) {
   .div-aran {
-    margin: 5px;
+    margin-left: 0px;
     text-align: center;
   }
 }
