@@ -237,6 +237,7 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 866px) {
@@ -253,6 +254,7 @@ main {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    overflow: hidden;
   }
 }
 
@@ -272,26 +274,6 @@ main {
   }
 }
 
-/*.main__index__sectionthree {
-        h2 {
-            padding-top: 20px;
-            padding-left: 25px;
-        }
-
-        ol {
-            height: 200px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            align-content: center;
-            list-style: disc;
-        }
-
-        li {
-            margin-top: 10px;
-            padding: 10px;
-        }
-    }*/
 * {
   margin: 0;
   padding: 0;
@@ -576,8 +558,17 @@ main {
           flex-direction: column;
 }
 
+.divcard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .div-aran {
-  margin-left: 70px;
+  margin-left: 50px;
 }
 
 @media screen and (max-width: 866px) {
@@ -619,12 +610,6 @@ main {
 .card-aran:hover, .card-aran:focus {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-}
-
-@media screen and (max-width: 866px) {
-  .card-aran {
-    margin-left: 80px;
-  }
 }
 
 .card-aran .plan-name {
@@ -926,24 +911,50 @@ main {
 }
 
 footer {
-  background: color #dedee0;
+  background-color: #cecdcd;
   margin-top: 100px;
 }
 
-footer .footer-heading {
-  letter-spacing: 2px;
-  margin-top: 20px;
+@media screen and (max-width: 866px) {
+  footer .d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
-footer .footer-heading .contact-info {
+footer .contact-info {
   color: #000000;
   font-size: 14px;
   margin-top: 5px;
   margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+footer .contact-info .footer-heading {
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 866px) {
+  footer .contact-info {
+    margin-bottom: 12px;
+  }
 }
 
 footer .list-inline-item {
   padding-top: 0px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 866px) {
+  footer .list-inline-item {
+    margin-bottom: 12px;
+  }
 }
 
 footer .list-inline-item .footer-social-icon {

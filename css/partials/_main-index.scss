@@ -74,6 +74,7 @@
         display: flex;
         gap: 20px;
         align-items: center;
+        overflow: hidden;
 
         @include mobile {
             padding: 30px;
@@ -81,6 +82,7 @@
             flex-direction: column;
             gap: 20px;
             align-items: center;
+            overflow: hidden;
         }
 
         img {
@@ -96,27 +98,3 @@
         }
     }
 }
-
-
-
-
-/*.main__index__sectionthree {
-        h2 {
-            padding-top: 20px;
-            padding-left: 25px;
-        }
-
-        ol {
-            height: 200px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            align-content: center;
-            list-style: disc;
-        }
-
-        li {
-            margin-top: 10px;
-            padding: 10px;
-        }
-    }*/

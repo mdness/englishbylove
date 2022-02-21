@@ -2,25 +2,44 @@
 @import "./media-queries";
 
 footer {
-    background: color #dedee0;
+    background-color: #cecdcd;
     margin-top: 100px;
 
-    .footer-heading {
-        letter-spacing: 2px;
-        margin-top: 20px;
 
-        @import "./media-queries";
+    .d-flex {
 
-        .contact-info {
-            color: #000000;
-            font-size: 14px;
-            margin-top: 5px;
-            margin-bottom: 0px;
+        @include mobile {
+            display: flex;
+            flex-direction: column;
         }
     }
 
+    .contact-info {
+        color: #000000;
+        font-size: 14px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        margin-left: 10px;
+
+        .footer-heading {
+            letter-spacing: 2px;
+            margin-top: 20px;
+        }
+
+        @include mobile {
+            margin-bottom: 12px;
+        }
+    }
+
+
+
     .list-inline-item {
         padding-top: 0px;
+        margin-right: 10px;
+
+        @include mobile {
+            margin-bottom: 12px;
+        }
 
 
         .footer-social-icon {
@@ -76,4 +95,5 @@ footer {
         display: block;
         border-bottom: 1px solid #ff8282;
     }
+
 }
