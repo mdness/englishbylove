@@ -80,7 +80,7 @@ body header nav.navbar {
   background-color: #dedee0;
 }
 
-@media screen and (max-width: 866px) {
+@media screen and (max-width: 980px) {
   body header nav.navbar img {
     width: 200px;
     height: 100px;
@@ -138,14 +138,14 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url(../../multimedia/sectionZero.png);
+  background-image: url(../../multimedia/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
 }
 
-@media screen and (max-width: 866px) {
+@media screen and (max-width: 980px) {
   .main__index__sectionzero {
     height: 50vh;
     display: -webkit-box;
@@ -190,7 +190,7 @@ main {
   overflow: hidden;
 }
 
-@media screen and (max-width: 866px) {
+@media screen and (max-width: 980px) {
   .main__index .main__index__sectionone {
     padding: 30px;
     padding-top: 10px;
@@ -219,7 +219,7 @@ main {
   border-radius: 5px;
 }
 
-@media screen and (max-width: 866px) {
+@media screen and (max-width: 980px) {
   .main__index .main__index__sectionone img {
     width: 500px;
     -webkit-box-shadow: 2px 2px 5px #999;
@@ -240,7 +240,7 @@ main {
   overflow: hidden;
 }
 
-@media screen and (max-width: 866px) {
+@media screen and (max-width: 980px) {
   .main__index .main__index__sectiontwo {
     padding: 30px;
     display: -webkit-box;
@@ -265,7 +265,7 @@ main {
   border-radius: 5px;
 }
 
-@media screen and (max-width: 866px) {
+@media screen and (max-width: 980px) {
   .main__index .main__index__sectiontwo img {
     width: 500px;
     -webkit-box-shadow: 2px 2px 5px #999;
@@ -316,9 +316,10 @@ main {
 
 .main__cursos__sectionone {
   margin: 50px;
+  overflow: hidden;
 }
 
-@media screen and (max-width: 866px) {
+@media screen and (max-width: 980px) {
   .main__cursos__sectionone {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -337,7 +338,7 @@ main {
           box-shadow: 2px 2px 5px #999;
 }
 
-@media screen and (max-width: 866px) {
+@media screen and (max-width: 980px) {
   .main__cursos__sectionone img {
     width: 300px;
     border-radius: 5px;
@@ -357,7 +358,7 @@ main {
   padding: 30px;
 }
 
-@media screen and (max-width: 866px) {
+@media screen and (max-width: 980px) {
   .main__cursos__sectionone__div__alumnos {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -390,7 +391,7 @@ main {
   margin-left: 20px;
 }
 
-@media screen and (max-width: 866px) {
+@media screen and (max-width: 980px) {
   .main__cursos__sectionone__div__alumnos .main__cursos__sectionone__div__texto--lefttext {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -420,7 +421,7 @@ main {
           flex-direction: row-reverse;
 }
 
-@media screen and (max-width: 866px) {
+@media screen and (max-width: 980px) {
   .main__cursos__sectionone .main__cursos__sectionone__div__alumnos--right {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -453,7 +454,7 @@ main {
   text-align: end;
 }
 
-@media screen and (max-width: 866px) {
+@media screen and (max-width: 980px) {
   .main__cursos__sectionone .main__cursos__sectionone__div__alumnos--right .main__cursos__sectionone__div__texto--righttext {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -502,7 +503,7 @@ main {
   width: 60px;
 }
 
-@media screen and (max-width: 866px) {
+@media screen and (max-width: 980px) {
   .main__cursos .main__cursos__sectiontwo__div__exams {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -571,7 +572,7 @@ main {
   margin-left: 50px;
 }
 
-@media screen and (max-width: 866px) {
+@media screen and (max-width: 980px) {
   .div-aran {
     margin-left: 0px;
     text-align: center;
@@ -915,7 +916,7 @@ footer {
   margin-top: 100px;
 }
 
-@media screen and (max-width: 866px) {
+@media screen and (max-width: 980px) {
   footer .d-flex {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -940,7 +941,7 @@ footer .contact-info .footer-heading {
   margin-top: 20px;
 }
 
-@media screen and (max-width: 866px) {
+@media screen and (max-width: 980px) {
   footer .contact-info {
     margin-bottom: 12px;
   }
@@ -951,7 +952,7 @@ footer .list-inline-item {
   margin-right: 10px;
 }
 
-@media screen and (max-width: 866px) {
+@media screen and (max-width: 980px) {
   footer .list-inline-item {
     margin-bottom: 12px;
   }
