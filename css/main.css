@@ -82,9 +82,13 @@ body header nav.navbar {
 
 @media screen and (max-width: 980px) {
   body header nav.navbar img {
-    width: 200px;
-    height: 100px;
+    width: 150px;
   }
+}
+
+body header .indexconta {
+  -webkit-box-shadow: 4px 4px 10px 4px #cecece;
+          box-shadow: 4px 4px 10px 4px #cecece;
 }
 
 * {
@@ -138,11 +142,13 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url(../../multimedia/background.jpg);
+  background: url(../multimedia/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
+  -webkit-box-shadow: 4px 4px 10px 4px #cecece;
+          box-shadow: 4px 4px 10px 4px #cecece;
 }
 
 @media screen and (max-width: 980px) {
@@ -161,8 +167,12 @@ main {
 }
 
 .main__index__sectionzero__div {
-  max-width: 500px;
+  width: 600px;
   text-align: center;
+  background-color: #dedee0;
+  opacity: 0.8;
+  -webkit-box-shadow: 0px 0px 8px 8px #dedee0;
+          box-shadow: 0px 0px 8px 8px #dedee0;
 }
 
 .main__index__sectionzero__div h1 {
@@ -592,6 +602,8 @@ main {
   height: 350px;
   -webkit-box-shadow: 2px 2px 5px #999;
           box-shadow: 2px 2px 5px #999;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 .card-aran::after {
@@ -608,14 +620,32 @@ main {
   z-index: -1;
 }
 
-.card-aran:hover, .card-aran:focus {
+.card-aran:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+  background-color: #ffa2a2;
+}
+
+.card-aran:hover div {
+  color: #fff;
+}
+
+.card-aran:hover p {
+  color: #fff;
+}
+
+.card-aran:hover sub {
+  color: #fff;
+}
+
+.card-aran:hover a {
+  background: #fff;
+  color: #ff8282;
 }
 
 .card-aran .plan-name {
   padding: 13px 0;
-  border-bottom: 1px #eff0f2 solid;
+  border-bottom: 1px #dde0e2 solid;
   text-align: center;
   text-transform: uppercase;
   font-size: 14px;
@@ -660,12 +690,6 @@ main {
   min-height: 95px;
 }
 
-.card-aran .plan-cta:hover a {
-  opacity: 0.8;
-  color: #fff;
-  text-decoration: none;
-}
-
 .card-aran .button,
 .card-aran .button-primary {
   background: #ff8282;
@@ -678,6 +702,13 @@ main {
   line-height: normal;
   outline: none !important;
   padding: 0.6em 1em;
+}
+
+.card-aran .button:hover a,
+.card-aran .button-primary:hover a {
+  background: #fff;
+  color: #ff8282;
+  text-decoration: none;
 }
 
 .bg-footer {
@@ -729,7 +760,7 @@ main {
   margin-left: .75rem;
   background-color: transparent;
   border: none;
-  border-bottom: #000000 solid 1px;
+  border-bottom: #ffffff solid 1px;
   color: #000000;
   padding: .5rem;
   resize: none;
@@ -772,7 +803,7 @@ main {
 .main__inscripcion__sectionone i {
   -webkit-transition: color .2s;
   transition: color .2s;
-  color: #000000;
+  color: #ffffff;
 }
 
 .main__inscripcion__sectionone .fix-width {
@@ -794,6 +825,7 @@ main {
 .main__inscripcion__sectionone button {
   padding: 1rem 3rem;
   border: none;
+  border-radius: px;
   color: #ffffff;
   background-color: #ff8282;
   -webkit-box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.143);

@@ -9,7 +9,7 @@
         margin-left: .75rem;
         background-color: transparent;
         border: none;
-        border-bottom: #000000 solid 1px;
+        border-bottom: #ffffff solid 1px;
         color: #000000;
         padding: .5rem;
         resize: none;
@@ -46,7 +46,7 @@
 
     i {
         transition: color .2s;
-        color: #000000;
+        color: #ffffff;
     }
 
     .fix-width {
@@ -63,6 +63,7 @@
     button {
         padding: 1rem 3rem;
         border: none;
+        border-radius: px;
         color: #ffffff;
         background-color: #ff8282;
         box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.143);

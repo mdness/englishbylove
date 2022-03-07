@@ -10,10 +10,14 @@ body {
 
             @include mobile {
                 img {
-                    width: 200px;
-                    height: 100px;
+                    width: 150px;
                 }
             }
         }
+
+        .indexconta {
+            box-shadow: 4px 4px 10px 4px #cecece;
+        }
+
     }
 }

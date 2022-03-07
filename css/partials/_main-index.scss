@@ -10,11 +10,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background: url(../../multimedia/background.jpg);
+        background: url(../multimedia/background.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;
         background-size: cover;
+        box-shadow: 4px 4px 10px 4px #cecece;
 
         @include mobile {
             height: 50vh;
@@ -24,8 +25,11 @@
         }
 
         &__div {
-            max-width: 500px;
+            width: 600px;
             text-align: center;
+            background-color: #dedee0;
+            opacity: 0.8;
+            box-shadow: 0px 0px 8px 8px #dedee0;
 
             h1 {
                 font-size: 40px;
@@ -43,6 +47,8 @@
         align-items: center;
         justify-content: center;
         overflow: hidden;
+
+
 
         @include mobile {
             padding: 30px;
